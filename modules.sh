@@ -63,3 +63,4 @@ PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan CatalystX::CRUD
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Catalyst::Plugin::CRUD
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Catalyst::Plugin::AutoCRUD
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan RapidApp # For rdbic.pl
+PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Catalyst::Plugin::RapidApp
