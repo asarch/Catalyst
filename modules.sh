@@ -57,3 +57,9 @@ PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Pod::Webserver
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Perldoc::Server
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Pod::Server
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Pod::POM::Web
+
+# Some CRUD plugins for Catalyst
+PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan CatalystX::CRUD
+PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Catalyst::Plugin::CRUD
+PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan Catalyst::Plugin::AutoCRUD
+PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan RapidApp # For rdbic.pl
