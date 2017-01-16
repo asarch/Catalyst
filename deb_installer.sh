@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $USER != "roo" ]; then
+if [ $USER != "root" ]; then
 	echo "Must be root"
 	exit 1
 fi
