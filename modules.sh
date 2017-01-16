@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# To use with perlbrew
+
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan LWP
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan YAML
 PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--alldeps cpan YAML::XS
